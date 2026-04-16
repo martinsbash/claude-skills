@@ -11,7 +11,6 @@ These skills extend Claude's capabilities with specialized behaviors for prompt 
 | [Prompt Engineering](prompt-engineering/SKILL.md) | Production-grade prompt writing, auditing, and optimization for any domain |
 | [Self-Evolving Agent](self-evolving-agent/SKILL.md) | Recursive self-improvement loops — Claude learns from mistakes and gets better over time |
 | [Chat Compactor](chat-compactor/SKILL.md) | Context window compression to keep long conversations efficient |
-| [Skill Creator](skill-creator/SKILL.md) | Meta-skill that creates, modifies, and benchmarks other Claude skills |
 | [Session Continuity](session-continuity/SKILL.md) | Context restoration for picking up work seamlessly across sessions |
 
 ## How to Use
