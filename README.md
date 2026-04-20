@@ -16,7 +16,7 @@ These skills extend Claude's capabilities with specialized behaviors for prompt 
 | [Self-Evolving Agent](self-evolving-agent/SKILL.md) | Recursive self-improvement loops — Claude learns from mistakes and gets better over time |
 | [Chat Compactor](chat-compactor/SKILL.md) | Context window compression to keep long conversations efficient |
 | [Session Continuity](session-continuity/SKILL.md) | Context restoration for picking up work seamlessly across sessions |
-| [Oracle Research](oracle-research/SKILL.md) | 10-phase research protocol: per-claim Chain-of-Verification, 4-tier source hierarchy, mandatory triangulation and adversarial review, calibrated confidence from CERTAIN to ABSTAIN |
+| [Oracle Research](oracle-research/SKILL.md) | 10-phase research protocol: per-claim Chain-of-Verification, 4-tier source hierarchy, mandatory triangulation and adversarial review|
 
 
 ## How to Use
