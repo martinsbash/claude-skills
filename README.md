@@ -6,7 +6,7 @@ Custom AI skills and automation workflows built for Claude.
 
 These skills extend Claude's capabilities with specialized behaviors for prompt engineering, self-improvement, context management, and more. Each skill is a standalone `.md` file that can be loaded into Claude to activate the workflow.
 
-#Why these exist
+## Why these exist
 
 I build with Claude daily, primarily as a research partner. On projects with Outlier I work as an Oracle-tier benchmark engineer and reviewer, probing AI training data and model outputs for correctness, reasoning quality, and failure modes. Claude runs alongside that work for reading papers, cross-referencing sources, synthesizing documentation, and pressure-testing my own reasoning before a review goes out. I also use Claude on personal research and on my ventures: a creative agency, a trading workflow, a clothing brand, and a personal productivity system.
 The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function signatures under time pressure. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next.
