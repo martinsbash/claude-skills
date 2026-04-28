@@ -4,7 +4,8 @@
 Custom AI skills and automation workflows built for Claude.
 
 
-These skills extend Claude's capabilities with specialized behaviors for prompt engineering, self-improvement, context management, and more. Each skill is a standalone `.md` file that can be loaded into Claude to activate the workflow.
+A small library of composable skills for Claude Code and Claude agents, focused on reliability, self-correction, and working productively across long sessions.
+Each skill is a self-contained Markdown file (SKILL.md) that Claude activates automatically when the conversation matches its triggers. Skills can be used individually or composed. They're designed to degrade gracefully when the agent is tired, distracted, or running under time pressure, which is to say, most of the time.
 
 ## Why these exist
 
