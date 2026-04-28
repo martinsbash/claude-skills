@@ -33,6 +33,14 @@ I'm publishing them because the failures they address aren't personal to me. The
 2. Add it to your Claude project's custom instructions or skill directory
 3. The skill activates automatically when relevant triggers are detected in conversation
 
+## Honest limits
+
+A few things this library does not yet do, which I'd rather name than hide:
+
+No automated evals. I don't have a harness that measures whether each skill actually improves Claude's outputs against a held-out test set. The evidence for each skill is mostly the skill's own changelog (what previous versions didn't solve) and the fact that I use them every day. A proper eval pass is on the roadmap.
+No user studies. These have been tested mostly by me. If you find failure modes I haven't documented, I'd like to hear about them.
+Not all failure classes are covered. The skills address metacognition, context management, and prompt construction. They don't address multi-agent coordination, tool-use reliability, or alignment-style concerns. Each of those probably deserves its own skill; I haven't written them yet because I haven't hit the failures hard enough to know what the shape of the answer is.
+
 
 ## Author
 
