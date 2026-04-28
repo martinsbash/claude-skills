@@ -34,6 +34,15 @@ I'm publishing them because the failures they address aren't personal to me. The
 2. Add it to your Claude project's custom instructions or skill directory
 3. The skill activates automatically when relevant triggers are detected in conversation
 
+Each skill has trigger phrases built in. When your message matches one, the skill fires automatically. For example:
+
+Say "learn from this mistake" or "don't make that error again" → self-evolving-agent kicks in
+Say "compact this chat" or "context is getting long" → chat-compactor runs
+Say "continue from last session" or "pick up where we left off (mention the particular chat name/title)" → session-continuity restores context
+Say "research this" or "verify this claim" → oracle-research runs a sourced investigation
+
+You can also call any skill directly by typing /skill-name in the chat — for example /self-evolving-agent or /oracle-research. Useful when the trigger phrases don't quite fit what you're doing but you know which skill you need.
+
 ## Honest limits
 
 A few things this library does not yet do, which I'd rather name than hide:
