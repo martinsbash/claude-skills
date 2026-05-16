@@ -8,7 +8,7 @@ Each skill is a self-contained Markdown file (`SKILL.md`) that Claude activates 
 
 ## Why these exist
 
-I use Claude daily across most of what I do: building and refining the skills in this library, personal projects, the operations of my ventures, and the research and benchmarking work I do on projects with Outlier. On those projects I work as an Oracle-tier benchmark engineer and reviewer, probing AI training data and model outputs for correctness, reasoning quality, and failure modes. My ventures include a creative agency, a trading workflow, a clothing brand, and a personal productivity system.
+I use Claude daily across most of what I do: building and refining the skills in this library, personal, research, and work projects. On those projects, I work as an Oracle-tier benchmark engineer and reviewer, probing AI training data and model outputs for correctness, reasoning quality, and failure modes. My ventures include a creative agency, a trading workflow, a clothing brand, and a personal productivity system.
 
 The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function signatures under time pressure. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
 
