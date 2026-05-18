@@ -3,11 +3,12 @@
 A small library of composable skills for Claude Code and Claude agents, focused on reliability, self-correction, advanced chain of thought, and working productively across long sessions.
 
 Each skill is a self-contained Markdown file (`SKILL.md`) that Claude activates automatically when the conversation matches its triggers. Skills can be used individually or composed. 
+
 ---
 
 ## Why these exist
 
-I use Claude daily across most of what I do: building and refining the skills in this library, personal projects, the operations of my businesses, and the research and benchmarking work I do on projects with Outlier, where I work as an Oracle-tier prompt engineer and reviewer evaluating AI training data and model outputs for correctness, reasoning quality, and failure modes for financial analysis.
+I use Claude daily across most of what I do: building and refining the skills in this library, personal projects, the operations of my businesses, and the research and benchmarking work I do on projects with Outlier, where I work as an Oracle-tier prompt engineer and reviewer evaluating AI training data and model outputs for correctness, reasoning quality, and failure modes across tasks involving finance industry.
 
 The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function, repeating the same mistakes. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
 
