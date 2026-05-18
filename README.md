@@ -2,15 +2,14 @@
 
 A small library of composable skills for Claude Code and Claude agents, focused on reliability, self-correction, advanced chain of thought, and working productively across long sessions.
 
-Each skill is a self-contained Markdown file (`SKILL.md`) that Claude activates automatically when the conversation matches its triggers. Skills can be used individually or composed. They're designed to degrade gracefully when the agent is tired, distracted, or running under time pressure, which is to say, most of the time.
-
+Each skill is a self-contained Markdown file (`SKILL.md`) that Claude activates automatically when the conversation matches its triggers. Skills can be used individually or composed. 
 ---
 
 ## Why these exist
 
-I use Claude daily across most of what I do: building and refining the skills in this library, personal projects, the operations of my ventures, and the research and benchmarking work I do on projects with Outlier, where I work as an Oracle-tier benchmark engineer and reviewer evaluating AI training data and model outputs for correctness, reasoning quality, and failure modes.
+I use Claude daily across most of what I do: building and refining the skills in this library, personal projects, the operations of my businesses, and the research and benchmarking work I do on projects with Outlier, where I work as an Oracle-tier prompt engineer and reviewer evaluating AI training data and model outputs for correctness, reasoning quality, and failure modes for financial analysis.
 
-The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function signatures under time pressure. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
+The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function, repeating the same mistakes. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
 
 Each skill in this library is a response to a specific failure class I kept hitting and wanted to stop hitting. None of them are speculative. Every one has been iterated against real work, and each has a version history that documents what the previous version didn't solve.
 
