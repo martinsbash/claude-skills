@@ -10,7 +10,7 @@ Use them individually or stack them.
 
 ## Why these exist
 
-I use Claude daily across everything I do: building and refining the skills in this library, personal projects, running my businesses, and the research and benchmarking work I do as an AI trainer and reviewer evaluating model outputs for correctness, reasoning quality, and failure modes, particularly in finance and data-heavy tasks.
+I use Claude daily across everything I do: building and refining the skills in this library, personal projects, running my businesses, and the research and benchmarking work I do as an AI trainer and prompt engineer evaluating model outputs for correctness, reasoning quality, and failure modes, particularly in finance and data-heavy tasks.
 
 The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function, repeating the same mistakes. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
 
