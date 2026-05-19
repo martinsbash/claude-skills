@@ -1,6 +1,6 @@
 # claude-skills
 
-A small library of composable skills for Claude Code and Claude agents, focused on reliability, self-correction, advanced chain of thought, and working productively across long sessions.
+A library of composable skills for Claude Code and Claude agents, focused on reliability, self-correction, advanced chain of thought, and working productively across long sessions.
 
 Each skill is a self-contained Markdown file (`SKILL.md`) that Claude activates automatically when the conversation matches its triggers. Skills can be used individually or composed. 
 
