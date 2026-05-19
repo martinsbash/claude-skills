@@ -31,9 +31,8 @@ I hope you find them as useful as I did.
 | [oracle-research](oracle-research/SKILL.md) | v1.0.0 | Per-claim source verification for research. Every claim traces to a primary source before output ships. Uncertainty registry for anything unverifiable — gaps stay visible, not papered over. |
 | [superintelligence](superintelligence/SKILL.md) | v1.1.0 | Multi-lens reasoning across up to seven parallel registers. Steel-mans the opposition, falsifies before committing, calibrates confidence to evidence. Stakes-scaled from a one-line check to a full eight-phase protocol. |
 
-Version numbers reflect how many times I've rewritten the skill based on real failures. Three of the six (`self-evolving-agent`, `chat-compactor`, and `session-continuity`) have converged on a shared v1.2 architecture: seven phases, a named risk register, a binary commit gate before output, regression tests paired to each risk, and calibration tracking. That architecture emerged from closing structural failure gaps I kept hitting, and I've been retrofitting it to the other skills where it applies.
 
-I update the skills roughly every two weeks. Each pass is driven by specific failures the current version didn't catch, not a scheduled release cadence.
+I update the skills roughly every month. Each pass is driven by specific failures the current version didn't catch
 
 ---
 
