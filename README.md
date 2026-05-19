@@ -56,12 +56,6 @@ A few things this library does not yet do, which I'd rather name than hide:
 
 ---
 
-## Background
-
-Built by [Martins Bash](https://github.com/martinsbash). AI trainer and researcher; co-founder of [Afro Creative Group](https://afrocreativegroup.lovable.app). Longer-form writing on [Medium](https://medium.com/@martinsbash). The skills are refined in the course of that research and work, not as a separate project.
-
----
-
 ## License
 
 MIT. Use, modify, and redistribute freely. A note back if something's useful is always welcome.
