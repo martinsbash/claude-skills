@@ -12,11 +12,11 @@ Use them individually or stack them.
 
 I use Claude daily across everything I do: building and refining the skills in this library, personal projects, running my businesses, and the research and benchmarking work I do as an AI trainer and prompt engineer evaluating model outputs for correctness, reasoning quality, and failure modes, particularly in finance and data-heavy tasks.
 
-The same categories of failure kept surfacing across all of it. Claude would hallucinate specific function, repeating the same mistakes. Long sessions would lose the thread of what we were actually working on. Prompts that worked yesterday would produce generic output today. Correction rules I'd established in one session wouldn't fire in the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
+The more actively I worked with Claude, the more I kept noticing the same mistakes. It would hallucinate specific details and repeat the same errors. Long sessions would lose the thread of what I was actually working on. Prompts that worked yesterday would produce generic output today. Correction rules established in one session wouldn't carry over to the next. Consequential questions would get one fluent line of reasoning when three independent angles were needed.
 
-Each skill in this library is a response to a specific failure class I kept hitting and wanted to stop hitting. None of them are speculative. Every one has been iterated against real work, and each has a version history that documents what the previous version didn't solve.
+Each skill in this library is a direct response to these failure classes. I'm publishing them because the failures they address aren't personal to me, they're structural to how LLMs behave. 
 
-I'm publishing them because the failures they address aren't personal to me. They're structural to how LLMs behave.
+I hope you find them as useful as I did.
 
 ---
 
