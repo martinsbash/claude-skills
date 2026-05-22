@@ -24,12 +24,12 @@ I hope you find them as useful as I did.
 
 | Skill | Version | What it's for |
 |-------|---------|---------------|
-| [self-evolving-agent](self-evolving-agent/SKILL.md) | v1.2.0 | Catches systematic Claude failures and installs mechanical backstops. Corrections generate paired regression tests that run at a commit gate — a failing test blocks output whether or not the agent remembered to check. Five named risks on every non-trivial task; rules scoped to global, domain, or project so corrections don't bleed across contexts. |
-| [prompt-engineering](prompt-engineering/SKILL.md) | v1.1.0 | Eight-component structure for prompts that work reliably. Every prompt is two contracts: behavioral (how Claude reasons) and output (what it delivers). Domain-agnostic. |
-| [session-continuity](session-continuity/SKILL.md) | v1.2.0 | Restores working context when a session ends cold. Four layered query types instead of a single-query guess, synthesized into a working state. Five modes from quick-reload to stakes-critical. |
-| [chat-compactor](chat-compactor/SKILL.md) | v1.2.0 | Compresses the context window mid-session around 60–70% usage. Keeps active tasks and decisions, drops resolved threads. Five modes. |
-| [oracle-research](oracle-research/SKILL.md) | v1.0.0 | Per-claim source verification for research. Every claim traces to a primary source before output ships. Uncertainty registry for anything unverifiable — gaps stay visible, not papered over. |
-| [superintelligence](superintelligence/SKILL.md) | v1.1.0 | Multi-lens reasoning across up to seven parallel registers. Steel-mans the opposition, falsifies before committing, calibrates confidence to evidence. Stakes-scaled from a one-line check to a full eight-phase protocol. |
+| [self-evolving-agent](self-evolving-agent/SKILL.md) | v1.2.0 | Detects recurring Claude failure patterns and prevents them from repeating. Each correction generates a test that runs automatically before output is finalized. Rules are scoped to global, domain, or project level so fixes stay contained. |
+| [prompt-engineering](prompt-engineering/SKILL.md) | v1.1.0 | Structured framework for building prompts that produce reliable, consistent and detailed output. Separates reasoning behavior from output format. Works across any domain or use case. |
+| [session-continuity](session-continuity/SKILL.md) | v1.2.0 | Restores full working context when a session ends. Runs layered search queries instead of a single pass and reconstructs an accurate working state. Five modes from quick resume to full context recovery. |
+| [chat-compactor](chat-compactor/SKILL.md) | v1.2.0 | Compresses long conversations without losing what matters. Retains active tasks and open decisions, drops resolved threads. |
+| [oracle-research](oracle-research/SKILL.md) | v1.0.0 | Per-claim source verification for research. Every claim traces to a primary source before output ships. Anything unverifiable gets flagged explicitly rather than omitted or assumed. |
+| [superintelligence](superintelligence/SKILL.md) | v1.1.0 | Runs hard questions through multiple independent reasoning angles simultaneously, stress-tests its own conclusions, and scales the depth of analysis to match what the question actually requires. |
 
 
 I update the skills roughly every month. Each pass is driven by specific failures the current version didn't catch
